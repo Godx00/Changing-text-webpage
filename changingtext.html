@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="change.css">
+    <title>Portfolio</title>
+</head>
+<body>
+        <div class="container con1">
+       <span class="span1"> I'm a &#32;</span>
+            <div class="container">
+       <span class="textchange" id="textchange"> </span>
+    </div>
+    </div>
+        <Script>
+            var text = document.getElementsByClassName("textchange");
+            function textload (){
+                setTimeout(textshow, 0);
+                setTimeout(textshow1, 6000);
+                setTimeout(textshow2, 12000);
+                setTimeout(textshow3, 18000);
+                return 0;
+            }
+            function textshow(text){
+                document.getElementById("textchange").innerHTML = " FreeLancer";  
+            }
+            function textshow1(text){
+                document.getElementById("textchange").innerHTML = " Devloper";  
+            }
+            function textshow2(text){
+                document.getElementById("textchange").innerHTML = " Gamer";  
+            }
+            function textshow3(text){
+                document.getElementById("textchange").innerHTML = " God";  
+            }
+            textload();
+           
+        </Script>
+            
+                
+           
+            
+
+</body>
+</html>
