@@ -1,2 +1,1 @@
-# Changing-text-webpage
-Simplified javascript used normal functions instead of arrow functions
+Discover the charm of a Changing Text Webpage project. Dive into JavaScript basics using traditional functions, offering a user-friendly twist. Witness words transform effortlessly—perfect for those starting their coding journey. Embrace the simplicity and magic of text changes in this hands-on project! 🌐🚀
